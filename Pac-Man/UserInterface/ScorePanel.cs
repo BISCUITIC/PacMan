@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Pac_Man.Abstractions;
+using Pac_Man.CoordinatesSystem;
 
-namespace Pac_Man;
+namespace Pac_Man.UserInterface;
 
-internal class ScorePanel:InterfaceObject
+internal class ScorePanel : InterfaceObject
 {
     private int _score;
-    public ScorePanel(Vector2i DiplayPosition):base (DiplayPosition)
+    public ScorePanel(Vector2i DiplayPosition) : base(DiplayPosition)
     {
         _score = 0;
     }

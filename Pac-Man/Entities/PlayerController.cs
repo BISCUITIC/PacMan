@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Pac_Man.CoordinatesSystem;
 
-namespace Pac_Man;
+namespace Pac_Man.Entities;
 
 internal class PlayerMovementController
-{    
-    private ConsoleKeyInfo _lastKeyPressed;    
+{
+    private ConsoleKeyInfo _lastKeyPressed;
 
-    public Vector2i Direction { get; set; } 
+    public Vector2i Direction { get; set; }
 
     public PlayerMovementController()
-    {       
+    {
         _lastKeyPressed = new ConsoleKeyInfo();
         Direction = (0, 0);
     }
@@ -22,7 +17,7 @@ internal class PlayerMovementController
     public void Update()
     {
         while (Console.KeyAvailable)
-        {            
+        {
             _lastKeyPressed = Console.ReadKey(true);
         }
 
