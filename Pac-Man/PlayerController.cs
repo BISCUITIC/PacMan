@@ -29,17 +29,16 @@ internal class PlayerMovementController
         switch (_lastKeyPressed.Key)
         {
             case ConsoleKey.W:
-                Direction = (0, -1
-                    );
-                break;
-            case ConsoleKey.S:
-                Direction = (0, 1);
-                break;
-            case ConsoleKey.A:
                 Direction = (-1, 0);
                 break;
-            case ConsoleKey.D:
+            case ConsoleKey.S:
                 Direction = (1, 0);
+                break;
+            case ConsoleKey.A:
+                Direction = (0, -1);
+                break;
+            case ConsoleKey.D:
+                Direction = (0, 1);
                 break;
         }
     }

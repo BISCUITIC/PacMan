@@ -2,15 +2,19 @@
 
 internal class Player : Entity, IDrawable
 {
-    private readonly Map _map;
-    private readonly char _symbol;
-
+    private readonly Map _map;    
+    
     private readonly PlayerMovementController _playerMovementController;
 
-    public Player(Map map, Vector2i position) : base(position)
+    private int _score;
+
+    public delegate void Change(int newValue);
+    public event Change ScoreChanged;
+
+    public Player(Map map, Vector2i startPosition) : base(startPosition)
     {
-        _map = map;
-        _symbol = '$';
+        _map = map;        
+        _score = 0;
         _playerMovementController = new PlayerMovementController();
     }
 
@@ -24,9 +28,19 @@ internal class Player : Entity, IDrawable
     private void CheckCollisions()
     {
         Vector2i targetPosition = _position + _playerMovementController.Direction;
-        if (IsInsideMap(targetPosition) && _map[targetPosition.X, targetPosition.Y] == Map.EmptySymbol)
+
+        if (!IsInsideMap(targetPosition)) return;
+
+        if (_map[targetPosition.X, targetPosition.Y] == Map.EmptySymbol)
         {
             _position = targetPosition;               
+        }
+        if (_map[targetPosition.X, targetPosition.Y] == Map.СherrySymbol)
+        {
+            _position = targetPosition;
+            _map[targetPosition.X, targetPosition.Y] = Map.EmptySymbol;
+            _score += 100;
+            ScoreChanged.Invoke(_score);
         }
     }
 
@@ -37,7 +51,7 @@ internal class Player : Entity, IDrawable
 
     public void Draw()
     {
-        Console.SetCursorPosition(_position.X, _position.Y);
-        Console.Write(_symbol);
+        Console.SetCursorPosition(_position.Y, _position.X);
+        Console.Write(Map.PlayerSymbol);
     }
 }

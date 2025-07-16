@@ -1,30 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dima\\source\\repos\\Pac-Man\\",
+  "WorkspaceRootPath": "C:\\Users\\Dima\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\Visual Studio\\PacMan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|c:\\users\\dima\\source\\repos\\pac-man\\pac-man\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|solutionrelative:pac-man\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|c:\\users\\dima\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\visual studio\\pacman\\pac-man\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|solutionrelative:pac-man\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|c:\\users\\dima\\source\\repos\\pac-man\\pac-man\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|solutionrelative:pac-man\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|c:\\users\\dima\\source\\repos\\pac-man\\pac-man\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|solutionrelative:pac-man\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|c:\\users\\dima\\source\\repos\\pac-man\\pac-man\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|c:\\users\\dima\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\visual studio\\pacman\\pac-man\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|solutionrelative:pac-man\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|c:\\users\\dima\\source\\repos\\pac-man\\pac-man\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|solutionrelative:pac-man\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|c:\\users\\dima\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\visual studio\\pacman\\pac-man\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|solutionrelative:pac-man\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|c:\\users\\dima\\source\\repos\\pac-man\\pac-man\\vector2i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|solutionrelative:pac-man\\vector2i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|c:\\users\\dima\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\visual studio\\pacman\\pac-man\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6F784B-3156-4B89-9E18-24F59D69471F}|Pac-Man\\Pac-Man.csproj|solutionrelative:pac-man\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,86 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\Dima\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\Visual Studio\\PacMan\\Pac-Man\\Entity.cs",
+              "RelativeDocumentMoniker": "Pac-Man\\Entity.cs",
+              "ToolTip": "C:\\Users\\Dima\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\Visual Studio\\PacMan\\Pac-Man\\Entity.cs",
+              "RelativeToolTip": "Pac-Man\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T11:32:19.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\Dima\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\Visual Studio\\PacMan\\Pac-Man\\Enemy.cs",
+              "RelativeDocumentMoniker": "Pac-Man\\Enemy.cs",
+              "ToolTip": "C:\\Users\\Dima\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\Visual Studio\\PacMan\\Pac-Man\\Enemy.cs",
+              "RelativeToolTip": "Pac-Man\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T11:31:53.951Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Vector2i.cs",
-              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\Pac-Man\\Pac-Man\\Vector2i.cs",
-              "RelativeDocumentMoniker": "Pac-Man\\Vector2i.cs",
-              "ToolTip": "C:\\Users\\Dima\\source\\repos\\Pac-Man\\Pac-Man\\Vector2i.cs",
-              "RelativeToolTip": "Pac-Man\\Vector2i.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAACQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T18:32:38.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\Pac-Man\\Pac-Man\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Pac-Man\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\Dima\\source\\repos\\Pac-Man\\Pac-Man\\PlayerController.cs",
-              "RelativeToolTip": "Pac-Man\\PlayerController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAmwCAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T18:25:13.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\Pac-Man\\Pac-Man\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\Dima\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\Visual Studio\\PacMan\\Pac-Man\\Player.cs",
               "RelativeDocumentMoniker": "Pac-Man\\Player.cs",
-              "ToolTip": "C:\\Users\\Dima\\source\\repos\\Pac-Man\\Pac-Man\\Player.cs",
+              "ToolTip": "C:\\Users\\Dima\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\Visual Studio\\PacMan\\Pac-Man\\Player.cs",
               "RelativeToolTip": "Pac-Man\\Player.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T17:48:42.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameObject.cs",
-              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\Pac-Man\\Pac-Man\\GameObject.cs",
-              "RelativeDocumentMoniker": "Pac-Man\\GameObject.cs",
-              "ToolTip": "C:\\Users\\Dima\\source\\repos\\Pac-Man\\Pac-Man\\GameObject.cs",
-              "RelativeToolTip": "Pac-Man\\GameObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T18:19:18.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Map.cs",
-              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\Pac-Man\\Pac-Man\\Map.cs",
-              "RelativeDocumentMoniker": "Pac-Man\\Map.cs",
-              "ToolTip": "C:\\Users\\Dima\\source\\repos\\Pac-Man\\Pac-Man\\Map.cs",
-              "RelativeToolTip": "Pac-Man\\Map.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T17:34:11.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\Pac-Man\\Pac-Man\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dima\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\Visual Studio\\PacMan\\Pac-Man\\Program.cs",
               "RelativeDocumentMoniker": "Pac-Man\\Program.cs",
-              "ToolTip": "C:\\Users\\Dima\\source\\repos\\Pac-Man\\Pac-Man\\Program.cs",
+              "ToolTip": "C:\\Users\\Dima\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\Visual Studio\\PacMan\\Pac-Man\\Program.cs",
               "RelativeToolTip": "Pac-Man\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T17:06:32.793Z",
               "EditorCaption": ""
