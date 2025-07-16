@@ -1,0 +1,14 @@
+C:\Users\Dima\source\repos\Pac-Man\Pac-Man\bin\Debug\net9.0\Pac-Man.exe
+C:\Users\Dima\source\repos\Pac-Man\Pac-Man\bin\Debug\net9.0\Pac-Man.deps.json
+C:\Users\Dima\source\repos\Pac-Man\Pac-Man\bin\Debug\net9.0\Pac-Man.runtimeconfig.json
+C:\Users\Dima\source\repos\Pac-Man\Pac-Man\bin\Debug\net9.0\Pac-Man.dll
+C:\Users\Dima\source\repos\Pac-Man\Pac-Man\bin\Debug\net9.0\Pac-Man.pdb
+C:\Users\Dima\source\repos\Pac-Man\Pac-Man\obj\Debug\net9.0\Pac-Man.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dima\source\repos\Pac-Man\Pac-Man\obj\Debug\net9.0\Pac-Man.AssemblyInfoInputs.cache
+C:\Users\Dima\source\repos\Pac-Man\Pac-Man\obj\Debug\net9.0\Pac-Man.AssemblyInfo.cs
+C:\Users\Dima\source\repos\Pac-Man\Pac-Man\obj\Debug\net9.0\Pac-Man.csproj.CoreCompileInputs.cache
+C:\Users\Dima\source\repos\Pac-Man\Pac-Man\obj\Debug\net9.0\Pac-Man.dll
+C:\Users\Dima\source\repos\Pac-Man\Pac-Man\obj\Debug\net9.0\refint\Pac-Man.dll
+C:\Users\Dima\source\repos\Pac-Man\Pac-Man\obj\Debug\net9.0\Pac-Man.pdb
+C:\Users\Dima\source\repos\Pac-Man\Pac-Man\obj\Debug\net9.0\Pac-Man.genruntimeconfig.cache
+C:\Users\Dima\source\repos\Pac-Man\Pac-Man\obj\Debug\net9.0\ref\Pac-Man.dll
