@@ -5,21 +5,19 @@ using Pac_Man.UserInterface;
 
 namespace Pac_Man.Entities;
 
-internal class Player : Entity, IDrawable
+internal class Player : Entity
 {
     private readonly Map _map;
     
     private readonly PlayerMovementController _playerMovementController;
+    
+    private Vector2i _direction;
+    public Vector2i Position { get => _position; }
 
     private int _score;
+    public int Score { get => _score; }
 
-    private Vector2i _direction;
-
-    public delegate void Change(int newValue);
-    public event Change ScoreChanged;
-
-    public Vector2i Position { get => _position; }
-    public Player(Map map, Vector2i startPosition) : base(startPosition)
+    public Player(Vector2i startPosition, Map map) : base(startPosition)
     {
         _map = map;
         _score = 0;
@@ -55,13 +53,10 @@ internal class Player : Entity, IDrawable
         {            
             _map[targetPosition.X, targetPosition.Y] = Map.EmptySymbol;
             _score += 100;
-            ScoreChanged.Invoke(_score);
-        }
-
-       
+        }       
     }  
 
-    public void Draw()
+    public override void Draw()
     {
         Console.SetCursorPosition(_position.Y, _position.X);
         Console.Write(Map.PlayerSymbol);

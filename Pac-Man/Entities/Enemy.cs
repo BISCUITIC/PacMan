@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 
 namespace Pac_Man.Entities;
 
-internal class Enemy : Entity, IDrawable
+internal class Enemy : Entity
 {
     private readonly Player _target;   
     private Map _visitedMap;
@@ -25,6 +25,15 @@ internal class Enemy : Entity, IDrawable
         _visitedMap = new Map();
         q = new Queue<(Vector2i, Vector2i)>();
     }
+
+    public Enemy(Vector2i startPosition, Player target, Action action) : base(startPosition)
+    {
+        _target = target;
+        _visitedMap = new Map();
+        q = new Queue<(Vector2i, Vector2i)>();
+        CaughtUpPlayer += action;
+    }
+
 
     public override void Update()
     {
@@ -79,7 +88,7 @@ internal class Enemy : Entity, IDrawable
         _direction = startDirection;
     }
 
-    public void Draw()
+    public override void Draw()
     {
         Console.SetCursorPosition(_position.Y, _position.X);
         Console.Write(Map.EnemySymbol);

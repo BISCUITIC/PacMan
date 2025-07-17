@@ -2,6 +2,7 @@
 using Pac_Man.UserInterface;
 using System.Text;
 using System.Collections.Generic;
+using Pac_Man.Interfaces;
 
 namespace Pac_Man;
 
@@ -11,38 +12,38 @@ internal class Program
     private static void Main(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
+        Console.InputEncoding = Encoding.UTF8;
 
         Map map = new Map();
-        Player player = new Player(map, (21, 12));
-        ScorePanel scorePanel = new ScorePanel((0, 27));
+        Player player = new Player((21, 12), map);        
+        Enemy enemy1 = new Enemy((10, 13), player, GameOver);
+        ScorePanel scorePanel = new ScorePanel((0, 27), player);
 
-        List<Enemy> enemyList = new List<Enemy>();
-        enemyList.Add(new Enemy((10, 13), player));
-        //enemyList.Add(new Enemy((10, 11), player));
-        //enemyList.Add(new Enemy((12, 11), player));
-        //enemyList.Add(new Enemy((12, 13), player));
 
-        player.ScoreChanged += scorePanel.Update;
-        foreach (Enemy enemy in enemyList)
-            enemy.CaughtUpPlayer += GameOver;                
+        List<IDrawable> drawableList = new List<IDrawable>();
+        drawableList.Add(map);
+        drawableList.Add(scorePanel);
+        drawableList.Add(player);
+        drawableList.Add(enemy1);
 
+        List<IUpdatable> updatableList = new List<IUpdatable>();
+        updatableList.Add(scorePanel);
+        updatableList.Add(enemy1);
+        updatableList.Add(player);
+        
 
         while (!gameOver)
         {
-            
-            player.Update();
-            foreach (Enemy enemy in enemyList)
-                enemy.Update();
+            foreach (IUpdatable item in updatableList)
+                item.Update();
 
-            scorePanel.Draw();
-            map.Draw();
-            player.Draw();
-            foreach (Enemy enemy in enemyList)
-                enemy.Draw();
-
+            foreach (IDrawable item in drawableList)
+                item.Draw();
 
             Task.Delay(200).Wait();
         }
+
+        Console.SetCursorPosition(0, map.Size);
     }
 
     private static void GameOver()
