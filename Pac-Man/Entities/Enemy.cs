@@ -9,7 +9,7 @@ namespace Pac_Man.Entities;
 internal class Enemy : Entity
 {
     private readonly Player _target;   
-    private Map _visitedMap;
+    private Map _searchMap;
 
     private Queue<(Vector2i, Vector2i)> q;
     private const char _visitedSymbol = '*';
@@ -22,14 +22,14 @@ internal class Enemy : Entity
     public Enemy(Vector2i startPosition, Player target) : base(startPosition)
     {
         _target = target;       
-        _visitedMap = new Map();
+        _searchMap = new Map();
         q = new Queue<(Vector2i, Vector2i)>();
     }
 
     public Enemy(Vector2i startPosition, Player target, Action action) : base(startPosition)
     {
         _target = target;
-        _visitedMap = new Map();
+        _searchMap = new Map();
         q = new Queue<(Vector2i, Vector2i)>();
         CaughtUpPlayer += action;
     }
@@ -48,8 +48,8 @@ internal class Enemy : Entity
 
         if (targetPosition.X == _target.Position.X && targetPosition.Y == _target.Position.Y) { isFound = true; return; }
 
-        if (_visitedMap[targetPosition.X, targetPosition.Y] != _visitedSymbol &&
-            _visitedMap[targetPosition.X, targetPosition.Y] != Map.WallSymbol)
+        if (_searchMap[targetPosition.X, targetPosition.Y] != _visitedSymbol &&
+            _searchMap[targetPosition.X, targetPosition.Y] != Map.WallSymbol)
         {            
             q.Enqueue((targetPosition, startDirection));
         }        
@@ -60,12 +60,12 @@ internal class Enemy : Entity
         q = new Queue<(Vector2i, Vector2i)>();
         
         Vector2i position = _position;
-        Vector2i startDirection = new Vector2i(0, 0);
+        Vector2i startDirection = Vector2i.Zero;
 
-        _visitedMap = new Map();
+        _searchMap = new Map();
         isFound = false;
 
-        _visitedMap[position.X, position.Y] = _visitedSymbol;
+        _searchMap[position.X, position.Y] = _visitedSymbol;
 
         CheckCollisions(position, (0,  1), (0,  1));
         CheckCollisions(position, (0, -1), (0, -1));
@@ -77,7 +77,7 @@ internal class Enemy : Entity
         while (q.Count > 0 && !isFound)
         {
             (position, startDirection) = q.Dequeue();        
-            _visitedMap[position.X, position.Y] = _visitedSymbol;
+            _searchMap[position.X, position.Y] = _visitedSymbol;
 
             CheckCollisions(position, (0, 1), startDirection);
             CheckCollisions(position, (0, -1), startDirection);

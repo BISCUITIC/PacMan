@@ -5,6 +5,8 @@
         public int X { get; set; }
         public int Y { get; set; }
 
+        public static Vector2i Zero = new Vector2i(0, 0);
+
         public Vector2i(int x, int y)
         {
             X = x;
