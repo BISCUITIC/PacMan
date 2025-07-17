@@ -21,7 +21,7 @@ internal class Player : Entity
     {
         _map = map;
         _score = 0;
-        _direction = new Vector2i(0, 0);
+        _direction = Vector2i.Zero;
         _playerMovementController = new PlayerMovementController();
     }
 
@@ -47,7 +47,7 @@ internal class Player : Entity
 
         if (_map[targetPosition.X, targetPosition.Y] == Map.WallSymbol)
         {
-            _direction = new Vector2i(0, 0);
+            _direction = Vector2i.Zero;
         }
         if (_map[targetPosition.X, targetPosition.Y] == Map.СherrySymbol)
         {            

@@ -11,7 +11,7 @@ internal class PlayerMovementController
     public PlayerMovementController()
     {
         _lastKeyPressed = new ConsoleKeyInfo();
-        Direction = (0, 0);
+        Direction = Vector2i.Zero;
     }
 
     public void Update()
