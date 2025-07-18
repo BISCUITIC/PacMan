@@ -5,6 +5,8 @@ namespace Pac_Man.UserInterface;
 internal class Map : IDrawable
 {
     private const int _size = 25;
+    public int Size { get => _size; }
+
     private char[,] _map = new char[25, _size] {
         {'█','█','█','█','█','█','█','█','█','█','█','█','█','█','█','█','█','█','█','█','█','█','█','█','█'},
         {'█',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','█',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','█'},
@@ -38,15 +40,9 @@ internal class Map : IDrawable
     public static char WallSymbol = '█';
     public static char СherrySymbol = '$';
     public static char PlayerSymbol = '@';
-    public static char EnemySymbol = '%';
+    public static char EnemySymbol = '%';        
 
-    public int Size { get => _size; }
-    public char[,] Data { get => _map; }
-
-    public Map()
-    {
-        Console.CursorVisible = false;
-    }
+    public Map() { }
 
     public void Draw()
     {

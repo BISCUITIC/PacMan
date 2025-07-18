@@ -7,11 +7,11 @@ namespace Pac_Man.Entities;
 
 internal class Player : Entity
 {
-    private readonly Map _map;
-    
+    private readonly Map _map;    
     private readonly PlayerMovementController _playerMovementController;
     
     private Vector2i _direction;
+
     public Vector2i Position { get => _position; }
 
     private int _score;

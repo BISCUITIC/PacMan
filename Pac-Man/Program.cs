@@ -13,6 +13,7 @@ internal class Program
     {
         Console.OutputEncoding = Encoding.UTF8;
         Console.InputEncoding = Encoding.UTF8;
+        Console.CursorVisible = false;
 
         Map map = new Map();
         Player player = new Player((21, 12), map);        
@@ -46,8 +47,6 @@ internal class Program
         Console.SetCursorPosition(0, map.Size);
     }
 
-    private static void GameOver()
-    {
-        gameOver = true;
-    }
+    private static void GameOver() => gameOver = true;
+    
 }
